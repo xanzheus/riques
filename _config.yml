@@ -53,3 +53,17 @@ exclude: ["README.md", "README.html"]
 # Build settings
 highlighter: null
 markdown: kramdown
+
+sitemap:
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+        - "README.md"
+        - "README.html"
+
+gems:
+  - jekyll-mentions
+  - jemoji
+  - jekyll-feed
+  - jekyll-sitemap #https://github.com/kinnetica/jekyll-plugins
