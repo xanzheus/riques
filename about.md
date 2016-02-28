@@ -1,25 +1,28 @@
 ---
-title: About
-layout: aboutIndex
+title: Bruno Henriques Blog
+layout: page
 permalink: /about/index.html
 show-title: true
 ---
-![Profile Image](http://sergiokopplin.github.io/indigo/assets/images/profile.jpg)
 
-<p>MSc student.</p>
+<img class="circular" src="{{ site.author.profile-image }}"/> 
 
-<p>Site is still rendering (takes some days you know?).</p>
+<div class="text-justified">
+    <p>MSc student.</p>
 
-<h2>Skills</h2>
+    <p>Site is still rendering (takes some days you know?).</p>
 
-<ul class="skill-list">
-    <li>Reverse engineering </li>
-</ul>
+    <h2>Skills</h2>
 
-<h2>Projects</h2>
+    <ul class="skill-list">
+        <li>Reverse engineering </li>
+    </ul>
 
-<ul>
-    <li><a href="https://github.com/">Lorem Lorem</a></li>
-    <li><a href="https://github.com/">Ipsum Dolor</a></li>
-    <li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
+    <h2>Projects</h2>
+
+    <ul>
+        <li><a href="https://github.com/">Lorem Lorem</a></li>
+        <li><a href="https://github.com/">Ipsum Dolor</a></li>
+        <li><a href="https://github.com/">Dolor Lorem</a></li>
+    </ul>
+</div>

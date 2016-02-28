@@ -1,13 +1,12 @@
 # Site settings
 title: Bruno Henriques
-description: >
-    Personal website. A glimpse of what comes in my head from time to time.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://bphenriques.github.io" # the base hostname & protocol for your site
 
 author:
     fullname: Bruno Henriques
+    profile-image: "https://lh3.googleusercontent.com/4sR4lWUfxfndLPRPtTXjCLa5WLUu9SF_o-nvLc2zJxRo0eNzi5RMPbOXsBNzwKQNsUZJ=w6720-h4200-rw-no"
     email: brunoaphenriques@gmail.com
     linkedin: bphenriques
     github: bphenriques
@@ -26,7 +25,10 @@ disqus: :bphenriquesgithubio
 # google_analytics: 'UA-XXXXXXXX-X'
 
 
-# social generation links configuration
+###                            #####
+### Social build configuration #####
+###                            #####
+
 social-base-url:
     email: "mailto:"
     google-plus: https://plus.google.com/u/0/
@@ -42,6 +44,13 @@ social-end-url:
 
 custom-fav-icon:
     email: envelope
+
+
+###                            #####
+###    Build configurations    #####
+###    Do not change below     #####
+###                            #####
+
 
 # Syntax highlighting
 highlightstyle: ''
@@ -62,8 +71,8 @@ sitemap:
         - "README.md"
         - "README.html"
 
-gems:
+gems: 
   - jekyll-mentions
   - jemoji
   - jekyll-feed
-  - jekyll-sitemap #https://github.com/kinnetica/jekyll-plugins
+  - jekyll-sitemap

@@ -2,7 +2,7 @@
 	<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
 	<ul class="social-links">	
-		{% for prop in site.author offset:1 %} <!-- skip some due to different url generation -->
+		{% for prop in site.author offset:2 %} <!-- skip some due to different url generation -->
 	    	{% assign social_network=prop[0] %}
 	    	{% assign base_url=site.social-base-url[social_network] %}
 	    	{% assign end_url=site.social-end-url[social_network] %}

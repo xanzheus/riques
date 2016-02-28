@@ -1,9 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-subtitle: "Feel home!"
+title:  "Trying jekyll"
 date:   2015-09-06 23:34:01
-categories: [design, tools]
+categories: [projects]
 author: "Bruno Henriques"
 tags:
 - jekyll

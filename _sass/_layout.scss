@@ -9,17 +9,13 @@
     background-color: $site-header-background;
 }
 
-.about img {
-  width: 50%;
-  margin: 0 auto;
-  display: block;
-    width: 150px;
-    height: 150px;
-    border-radius: 75px;
-    -webkit-border-radius: 75px;
-    -moz-border-radius: 75px;
-}
+.about{
+    img {
+        margin-bottom: 20px;
+    }
 
+    text-align: center;
+}
 
 .site-title {
     font-size: 1.5rem;
@@ -31,6 +27,27 @@
     &:hover {
         text-decoration: none;
     }
+}
+
+.center{
+    text-align: center;
+}
+
+.circular{
+    margin: 0 auto;
+    display: block;
+
+    width: auto;
+    height: auto;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 75px;
+    -webkit-border-radius: 75px;
+    -moz-border-radius: 75px;
+}
+
+.text-justified{
+    text-align: justify;
 }
 
 .social-links {
@@ -78,11 +95,6 @@
 /**
  * Pages
  */
-.home {
-    section + section {
-        margin-top: $spacing-unit;
-    }
-}
 
 .smallcap {
     text-transform: lowercase;

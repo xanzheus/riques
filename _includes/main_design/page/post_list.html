@@ -1,6 +1,6 @@
 <!-- default values -->
 {% assign category_name = "Recent Posts" %}
-{% assign max_posts = 10 %}
+{% assign max_posts = 5 %}
 
 {% for category in site.data.categories %}
   {% if category.slug == page.category %}
@@ -16,7 +16,7 @@
     <ul class="post-list">
         {% assign empty_category = true %}
             {% for post in site.posts limit:max_posts %}
-                {% if page.category == null or post.categories contains page.category %}
+                {% if page.category == null or page.category == "all" or post.categories contains page.category %}
                     <li>
                         <span>{{ post.date | date: "%b %d, %Y" }}</span>
                         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
