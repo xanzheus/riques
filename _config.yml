@@ -1,0 +1,55 @@
+# Site settings
+title: Bruno Henriques
+description: >
+    Personal website. A glimpse of what comes in my head from time to time.
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://bphenriques.github.io" # the base hostname & protocol for your site
+
+author:
+    fullname: Bruno Henriques
+    email: brunoaphenriques@gmail.com
+    linkedin: bphenriques
+    github: bphenriques
+    instagram: brunophenriques
+    skype: bruno.h31    
+    #twitter: electrik_frog
+    #twitch: 
+    #tumblr: 
+    #steam: 
+    #spotify:
+    #stack-overflow: 
+    #reddit:
+
+
+disqus: :bphenriquesgithubio
+# google_analytics: 'UA-XXXXXXXX-X'
+
+
+# social generation links configuration
+social-base-url:
+    email: "mailto:"
+    google-plus: https://plus.google.com/u/0/
+    linkedin: https://pt.linkedin.com/in/
+    github: https://github.com/
+    youtube: https://www.youtube.com/channel/
+    instagram: https://www.instagram.com/
+    twitter: https://twitter.com/
+    skype: "skype:"
+
+social-end-url:
+    skype: "?add"
+
+custom-fav-icon:
+    email: envelope
+
+# Syntax highlighting
+highlightstyle: ''
+styles: [agate, androidstudio, arta, asceti, atelier-cave.dark, atelier-cave.light, atelier-dune.dark, atelier-dune.light, atelier-estuary.dark, atelier-estuary.light, atelier-forest.dark, atelier-forest.light, atelier-heath.dark, atelier-heath.light, atelier-lakeside.dark, atelier-lakeside.light, atelier-plateau.dark, atelier-plateau.light, atelier-savanna.dark, atelier-savanna.light, atelier-seaside.dark, atelier-seaside.light, atelier-sulphurpool.dark, atelier-sulphurpool.light, brown_paper, codepen-embed, color-brewer, dark, darkula, default, docco, far, foundation, github, github-gist, googlecode, grayscale, hopscotch, hybrid, idea, ir_black, kimbie.dark, kimbie.light, magula, mono-blue, monokai, monokai_sublime, obsidian, paraiso.dark, paraiso.light, pojoaque, railscast, rainbow, school_book, solarized_dark, solarized_light, styles_list.txt, sunburst, tomorrow, tomorrow-night-blue, tomorrow-night-bright, tomorrow-night, tomorrow-night-eightie, v, xcode, zenburn]
+
+# Handling Reading
+exclude: ["README.md", "README.html"]
+
+# Build settings
+highlighter: null
+markdown: kramdown

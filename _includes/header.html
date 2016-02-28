@@ -1,0 +1,27 @@
+<header class="site-header">
+	<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+
+	<ul class="social-links">	
+		{% for prop in site.author offset:1 %} <!-- skip some due to different url generation -->
+	    	{% assign social_network=prop[0] %}
+	    	{% assign base_url=site.social-base-url[social_network] %}
+	    	{% assign end_url=site.social-end-url[social_network] %}
+	    	{% assign user_id = prop[1] %}
+
+	    	{% assign fav_icon = social_network %}
+	    	{% if site.custom-fav-icon[social_network] %}
+	    		{% assign fav_icon = site.custom-fav-icon[social_network] %}
+	    	{% endif %}
+
+	    	<a data-tool="{{ base_url | remove:'http://' | remove:'https://' | remove:'mailto:' | remove:'skype:' | remove:'www.' }}{{ user_id }}" href="{{ base_url }}{{ user_id }}{{ end_url }}" class="social-links__entry tooltip bottom" target="_blank">
+				<i class="fa fa-{{ fav_icon }}"></i>
+			</a>
+		{% endfor %}
+
+		<a data-tool="Download CV" href="www.google.com" class="social-links__entry tooltip bottom" target="_blank">
+			<i class="fa fa-file-pdf-o"></i>
+		</a>
+			
+	</ul>
+
+</header>
