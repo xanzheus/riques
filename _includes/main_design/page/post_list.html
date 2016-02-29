@@ -9,16 +9,14 @@
   {% endif %}
 {% endfor %}
 
-
 <section>
-
     <h2 class="smallcap"> {{ category_name }} </h2>
     <ul class="post-list">
         {% assign empty_category = true %}
             {% for post in site.posts limit:max_posts %}
                 {% if page.category == null or page.category == "all" or post.categories contains page.category %}
                     <li>
-                        <span>{{ post.date | date: "%b %d, %Y" }}</span>
+                        <span>{{ post.date | date: "%B %d, %Y" }}</span>
                         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                     </li>
                     {% assign empty_category =  false %}

@@ -55,19 +55,19 @@
     margin-top: 6px;
     text-align: center;
     list-style-type: none;
-}
 
-.social-links__entry {
-    display: inline-block;
-    position: relative;
-    margin-left: 20px;
-    font-weight: 700;
-    font-size: 20px;
-    color: $grey-color-dark;
-}
+    .social-links__entry {
+        display: inline-block;
+        position: relative;
+        margin-left: 20px;
+        font-weight: 700;
+        font-size: 20px;
+        color: $grey-color-dark;
 
-.social-links__entry:first-of-type {
-    margin-left: 0px;
+        &:first-of-type {
+            margin-left: 0px;
+        }
+    }
 }
 
 .Site {
@@ -75,8 +75,6 @@
   min-height: 100vh;
   flex-direction: column;
 }
-
-
 
 /**
  * Page content
@@ -123,17 +121,17 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
-}
 
-.post-title {
-    font-size: 2rem;
-    letter-spacing: -1px;
-    line-height: 1;
-}
+    .post-title {
+        font-size: 2rem;
+        letter-spacing: -1px;
+        line-height: 1;
+    }
 
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
+    .post-meta {
+        font-size: $small-font-size;
+        color: $grey-color;
+    }
 }
 
 .post-content {
@@ -168,14 +166,14 @@
   */
 
 .tag-cloud {
-  list-style: none;
-  padding: 0;
-  text-align: justify; 
-  font-size: 16px;
-  li {
-    display: inline-block;
-    margin: 0 12px 12px 0; 
-  }
+    list-style: none;
+    padding: 0;
+    text-align: justify; 
+    font-size: 16px;
+    li {
+        display: inline-block;
+        margin: 0 12px 12px 0; 
+    }
 }
 
 .post-tags {
@@ -183,53 +181,45 @@
 }
 
 #archives {
-  padding: 5px;
-}
-.archive-group {
-  margin: 5px;
-  border-top: 1px solid #ddd;
-}
-.archive-item {
-  margin-left: 5px;
-}
-
-.page-footer{
-    background-color: $site-footer-background;
-    margin-top: 30px;
-    border-top: 1px solid $site-separator;
+    padding: 5px;
+  
+    .archive-group {
+        margin: 5px;
+        border-top: 1px solid #ddd;
+    }
 }
 
 /**
  * Explore
  */
-.explore {
+
+.page-footer{
+    background-color: $site-footer-background;
+    margin-top: 30px;
+    border-top: 1px solid $site-separator;
     text-align: center;
-    color: $grey-color-light;
 }
 
 .categories {
     list-style-type: none;
     margin-top: 15px;
-    padding: 0px;
-}
-
-.categories__item {
-    display: inline-block;
-    font-weight: 700;
+    font-weight: 300;
     font-size: 18px;
+
+    .categories__item {
+        display: inline-block;
+
+        a{ color: $grey-color-dark; }
+
+        &:after{
+            content: "/";
+            margin-right: 6px;
+        }
+
+        &:last-child:after {
+            content: "";
+            margin-right: 0px;
+        }
+    }
 }
 
-.categories__item a {
-    color: $grey-color-dark;
-}
-
-.categories__item:after {
-    content: "/";
-    margin-left: 6px;
-    color: $grey-color-dark;
-}
-
-.categories__item:last-child:after {
-    content: "";
-    margin-left: 0px;
-}

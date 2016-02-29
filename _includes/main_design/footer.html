@@ -1,13 +1,9 @@
 <footer class="page-footer"> 
-	<div class="explore">    
-	    <ul class="categories">
-            
-            {% for category in site.data.categories %}
-	            <li class="categories__item">
-                    <a href="{{ '/categories/' | append: category.slug | prepend: site.baseurl }}">{{ category.name }}</a>
-                </li>
-	        {% endfor %}
-
-	    </ul>
-	</div>
+    <ul class="categories">
+        {% for category in site.data.categories %}
+            <li class="categories__item">
+                <a href="{{ '/categories/' | append: category.slug | prepend: site.baseurl }}">{{ category.name }}</a>
+            </li>
+        {% endfor %}
+    </ul>
 </footer>
