@@ -1,6 +1,6 @@
 <div class="center"><img class="circular" src="{{ site.author.profile-image }}"/> </div>
 
 <p>Computer science engineer that believes in magic</p>
-<p>See more about me <a href="{{ '/About/index.html' | prepend: site.baseurl }}">here</a>.</p>
+<p>See more about me <a href="{{ '/about.html' | prepend: site.baseurl }}">here</a>.</p>
 
 

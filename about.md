@@ -1,7 +1,7 @@
 ---
 title: About me
 layout: page
-permalink: /about/index.html
+permalink: /about.html
 show-title: true
 ---
 
