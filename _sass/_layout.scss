@@ -1,7 +1,3 @@
-.border-line{
-    border: 1px solid pink;
-}
-
 /**
  * Site header
  */
@@ -9,7 +5,8 @@
     border-bottom: 1px solid $site-separator;
     text-align: center;
     padding: 1rem 0;
-    overflow: visible;
+    overflow-y: visible;
+    overflow-x: hidden;
     background-color: $site-header-background;
 }
 

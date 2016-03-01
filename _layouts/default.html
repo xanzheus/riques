@@ -4,20 +4,11 @@
       {% include meta_tags/base.html %}
       {% include meta_tags/sharing.html %}
       {% include externals/styling.html %}
-      <!-- {% include externals/helium-css-analyser.html %} -->
+      <!-- {% include externals/helium-css-analyser.html %} 
+           {% include externals/border-lines-debug.html %}
+      -->
       {% feed_meta %}
-
-      <script type="text/javascript">
-        window.onload = function() {
-            var buttons = document.getElementsByTagName("*"),
-                len = buttons !== null ? buttons.length : 0,
-                i = 0;
-            for(i; i < len; i++) {
-                buttons[i].className += " border-line"; 
-            }
-        }
-      </script>
-
+      
   </head>
 
   <body class="Site">    
