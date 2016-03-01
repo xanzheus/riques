@@ -1,0 +1,19 @@
+###                            #####
+### Social build configuration #####
+###                            #####
+
+social-base-url:
+    email: "mailto:"
+    google-plus: https://plus.google.com/u/0/
+    linkedin: https://pt.linkedin.com/in/
+    github: https://github.com/
+    youtube: https://www.youtube.com/channel/
+    instagram: https://www.instagram.com/
+    twitter: https://twitter.com/
+    skype: "skype:"
+
+social-end-url:
+    skype: "?add"
+
+custom-fav-icon:
+    email: envelope

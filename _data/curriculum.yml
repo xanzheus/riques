@@ -1,0 +1,236 @@
+short-description: >
+    Computer Science Engineer that believes that science and magic can coexist.
+
+description: >
+    I'm a MSc student at Técnico Lisboa working on make robots capable of building rapport!
+    I enjoy solving problems (especially AI) and most recently I have found mobile development very intesting. I also have (slight) OCD to refactor code.
+    Unless you are here to destroy the world, feel free to contact me. Hope you enjoy my random thoughts.
+
+
+projects:
+    title: "Projects"
+    iOS:
+        malaria-iOS:
+            name: Malaria Peace Corps iOS App
+            url: https://github.com/systers/malaria-app-ios
+        tecnico-iOS:
+            name: Técnico Lisboa iOS (published)
+            url: https://itunes.apple.com/us/app/tecnico-lisboa/id959976468
+        done-toolbar-swift:
+            name: Keyboard Done button Pod (public)
+            url: https://github.com/bphenriques/done-toolbar-swift
+        circle-progress-view:
+            name: Circular Progress View Pod (public)
+            url: https://github.com/bphenriques/CircleProgressView
+        picker-swift:
+            name: UIPickerView Wrapper Pod (public)
+            url: https://github.com/bphenriques/PickerSwift
+        horizontal-progressView:
+            name: Horizontal Progress View Pod (public)
+            url: https://github.com/bphenriques/HorizontalProgressView
+        ek-event-store-wrapper:
+            name: EKEventStoreWrapper WIP (public)
+            url: https://github.com/bphenriques/EKEventStoreWrapper
+    android:
+        bluetooth-android-authorization:
+            name: Bluetooth authorization App (client and server)
+            url: https://github.com/bphenriques/SecureAccess-Android
+
+    academic:
+        pa-projects:
+            name: Java debugger and APL in Lisp
+            url: https://github.com/bphenriques/PAV-IST-2015
+        ln-project:
+            name: NLP QA analyser
+            url: https://github.com/bphenriques/NLPMiniProjects
+        agents:
+            name: Reactive, Deliberative and Hybrid agents
+            url: https://github.com/bphenriques/AIForBrains
+        n-queens:
+            name: N-queens AI problem
+            url: https://github.com/bphenriques/20-queen
+        padi-project:
+            name: Distributed MapNoReduce
+            url: https://github.com/bphenriques/PADI-2015
+        ia-project:
+            name: Coins And Wires AI
+            url: https://github.com/bphenriques/CoinsAndWires
+        job-shop-schedule:
+            name: Resource allocation AI problem
+            url: https://github.com/bphenriques/PP-IST-JobScheduler
+        #split-or-steal:
+        #    name: Split Or Steal
+        #    url: https://github.com/bphenriques/SplitOrSteal
+        lp-project:
+            name: Unusual Suspect (einstein puzzle) Prolog
+            url: https://github.com/bphenriques/UnusualSuspects
+        asa-projects:
+            name: Some algorithm problems solved (graph)
+            url: https://github.com/bphenriques/projectoASA
+
+
+work:
+    title: "Work"
+    course-delegate: 
+        title: Delegate of MSc course on Information Systems and Computer Engineering
+        location: Técnico, Lisboa
+        description: >
+            I was responsible for representing the students, acting as bridge between them and the professors, 
+            and for assuring that the current regulations are being applied in order to promote the quality of the 
+            teaching in Técnico Lisboa.
+        from: October 2014
+        to: November 2015
+    GSoC2016: 
+        title: Google Summer of Code Student 2015 iOS Developer
+        location: Online
+        description: >
+            Responsible for developing the the Peace Corps vision of the malaria application on iOS devices. 
+            The project was a success and the first version of the app was ready to be released to the public.
+        from: May 2015
+        to: Semptember 2015
+
+    fenix-iOS: 
+        title: Mobile Applications Developer
+        location: FenixEdu, Lisbon
+        description: >
+            Part of the team developing the first official Instituto Superior Técnico application for iOS devices in Swift
+            using Fenix Edu REST API and OAuth2 service for client authorization.
+        from: October 2014
+        to: November 2015
+    gaips-internship: 
+        title: Intern Researcher
+        location: GAIPS INESC-ID, Taguspark
+        description: >
+            As part of a team, developed an application compatible with robot <a href="http://www.rethinkrobotics.com/products/baxter">Baxter</a> 
+            using <a href="http://www.ros.org/">ROS</a>, python, C++, and OpenCV. The application consisted in object manipulation and 
+            demonstration of several human emotions.
+        from: July 2014
+        to: August 2014
+    inesc-dm-internship: 
+        title: Minor Development
+        location: INESC-ID, Lisbon
+        description: >
+            Read, fix and write RPM packages scripts for the software developed.
+        from: February 2013
+        to: October 2013
+    nape: 
+        title: Mentor
+        location: Student Support Unit (NAPE), IST
+        description: >
+            Responsible for new incoming students guidance and tutoring, in order to integrate them at the campus during their first days.
+        from: September 2012
+        to: September 2013
+
+skills:
+    title: "Skills"
+    programming-languages:
+        name: Programming languages
+        content:
+            - C++
+            - Java
+            - C
+            - Python
+            - Swift
+            - Prolog
+            - Lisp (fair amount)
+    other-technologies:
+        name: Other technologies
+        content:
+            - LaTex
+            - SQL
+            - Unity
+            - ROS
+            - iOS SDK (major)
+            - Core Data
+            - Android SDK (minor)
+            - Version Control
+            - Computer Graphics (minor)
+
+education:
+    title: "Education"
+    MSc:
+        type: MSc degree
+        name: Information Systems and Computer Engineering
+        start: 2014
+        end: Present
+        location: Técnico Lisboa
+        location-url: http://tecnico.ulisboa.pt/en/
+        grade: 17
+        thesis: "Rapport: Establishing Harmonious Relationships Between Robots and Humans"
+        supervisors: ["Prof. Ana Paiva", "Prof. Rui Prada"]
+    BSc:
+        type: BSc degree
+        name: Information Systems and Computer Engineering
+        start: 2011
+        end: 2014
+        location: Técnico Lisboa
+        location-url: "http://tecnico.ulisboa.pt/en/"
+        grade: 17
+        thesis: ""
+        supervisors: []
+
+    Summer-school:
+        type: "Summer School"
+        name: English Language Programme
+        start: August 2010
+        end: August 2010
+        location: Abbotsholme, Staffordshire
+        location-url: ""
+        grade: B+
+        thesis: ""
+        supervisors: []
+
+volunteer:
+    title: "Volunteer Work"
+    refood: 
+        title: <a href="http://www.re-food.org/blog/">Refood</a> volunteer
+        location: Campo Pequeno, Lisbon
+        description: >
+            Ease the redirection of un-served left-over food to people in need by 
+            gathering goods at the local restaurants and delivering them to the central base.
+        from: March 2014
+        to: May 2014
+    natura-observa: 
+        title: Natura observa volunteer
+        location: Natural Park Sintra-Cascais
+        description: >
+            Maintenance of pedestrian routes and local flora
+        from: July 2012-2013
+        to: July 2012-2013
+    children-take-care: 
+        title: Child Care
+        location: Case Museu João Soares, Cortes, Leiria
+        description: >
+            Responsible for entertaining the children and keeping them interested during the planned activities arranged for them while keeping them safe.
+        from: July 2009
+        to: July 2009
+
+#research: 
+#    description: 
+    #papers:
+
+languages:
+    title: "Languages"
+    portuguese:
+        name: Portuguese (mother language)
+        written-level: Very Good
+        oral-level: Very good
+    english:
+        name: English
+        written-level: Good
+        oral-level: Good
+    french:
+        name: French
+        written-level: Basic (DELF A2)
+        oral-level: Basic (DELF A2)
+
+honors-awards:
+    title: "Honor and Awards"
+    academic-performance:        
+        description: Técnico Lisboa Academic Performance
+        date: 2012, 2013
+        for: ""
+    natura-observa:
+        description: Performance Award
+        date: 2012, 2013
+        for: Hard worker during project Javali

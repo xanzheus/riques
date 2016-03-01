@@ -1,8 +1,8 @@
 <footer class="page-footer"> 
     <ul class="categories">
         {% for category in site.data.categories %}
-            <li class="categories__item">
-                <a href="{{ '/categories/' | append: category.slug | prepend: site.baseurl }}">{{ category.name }}</a>
+            <li class="categories__item capitalize-first-letter">
+                <a href="{{ '/categories/' | append: category | prepend: site.baseurl }}">{{ category }}</a>
             </li>
         {% endfor %}
     </ul>

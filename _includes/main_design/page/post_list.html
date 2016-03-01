@@ -1,33 +1,31 @@
-<!-- default values -->
-{% assign category_name = "Recent Posts" %}
-{% assign max_posts = 5 %}
-
-{% for category in site.data.categories %}
-  {% if category.slug == page.category %}
-    {% assign category_name = category.name %}
+{% if page.category %}
+    {% assign category_name = page.category %}
     {% assign max_posts = 2500 %}
-  {% endif %}
-{% endfor %}
+    {% if category_name == "all" %}
+        {% assign source = site.posts %}        
+    {% else %}
+        {% assign source = site.categories[category_name] %}
+    {% endif %}
+{% else %}
+    {% assign category_name = "Recent Posts" %}
+    {% assign max_posts = 5 %}
+    {% assign source = site.posts %}
+{% endif %}
 
 <section>
-    <h2 class="smallcap"> {{ category_name }} </h2>
+    <h2 class="smallcap capitalize-first-letter"> {{ category_name }} </h2>
     <ul class="post-list">
         {% assign empty_category = true %}
-            {% for post in site.posts limit:max_posts %}
-                {% if page.category == null or page.category == "all" or post.categories contains page.category %}
-                    <li>
-                        <span>{{ post.date | date: "%B %d, %Y" }}</span>
-                        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    </li>
-                    {% assign empty_category =  false %}
-                {% endif %}                           
+           {% for post in source limit: max_posts %}
+                <li>
+                    <span>{{ post.date | date: "%B %d, %Y" }}</span>
+                    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </li>
+                {% assign empty_category =  false %}
             {% endfor %}
 
         {% if empty_category %}
-            <li> 
-                There is nothing posted (yet!).
-            </li>
+            <li>There is nothing posted (yet!).</li>
         {% endif %}
     </ul>
-
 </section>

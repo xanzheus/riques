@@ -13,8 +13,6 @@
     img {
         margin-bottom: 20px;
     }
-
-    text-align: center;
 }
 
 .site-title {
@@ -97,10 +95,10 @@
 .smallcap {
     text-transform: lowercase;
     font-variant: small-caps;
+}
 
-    &::first-letter {
-        text-transform: uppercase;
-    }
+.capitalize-first-letter{
+    text-transform: capitalize;
 }
 
 .post-list > li {
@@ -222,4 +220,3 @@
         }
     }
 }
-

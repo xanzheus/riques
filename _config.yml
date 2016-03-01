@@ -1,8 +1,12 @@
-# Site settings
+###
+### Generic settings
+###
+
 title: Bruno Henriques
 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://bphenriques.github.io" # the base hostname & protocol for your site
+url: "http://bphenriques.github.io"
+baseurl: "" #prefix, e.g. /blog/
+permalink: /:categories/:title
 
 author:
     fullname: Bruno Henriques
@@ -11,8 +15,9 @@ author:
     linkedin: bphenriques
     github: bphenriques
     instagram: brunophenriques
-    skype: bruno.h31    
-    #twitter: electrik_frog
+    skype: bruno.h31
+    #google-plus
+    #twitter:
     #twitch: 
     #tumblr: 
     #steam: 
@@ -23,33 +28,9 @@ author:
 disqus: :bphenriquesgithubio
 google_analytics: 'UA-74411247-1'
 
-
-###                            #####
-### Social build configuration #####
-###                            #####
-
-social-base-url:
-    email: "mailto:"
-    google-plus: https://plus.google.com/u/0/
-    linkedin: https://pt.linkedin.com/in/
-    github: https://github.com/
-    youtube: https://www.youtube.com/channel/
-    instagram: https://www.instagram.com/
-    twitter: https://twitter.com/
-    skype: "skype:"
-
-social-end-url:
-    skype: "?add"
-
-custom-fav-icon:
-    email: envelope
-
-
-###                            #####
-###    Build configurations    #####
-###    Do not change below     #####
-###                            #####
-
+###
+### Build settings
+###
 
 # Syntax highlighting
 highlightstyle: ''
