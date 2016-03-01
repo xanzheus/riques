@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "My post"
+title:  "REAAAAAALLLLLLY LONG LONG LONG LONG LONG LONG LONG LONG LONG LONG LONG LONG LONG LONG LONG LONG VERY LONG title post"
 date:   2014-08-19 23:56:45
-categories: [personal]
+categories: [all, personal]
 ---
 
 So...

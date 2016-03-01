@@ -12,20 +12,18 @@
     {% assign source = site.posts %}
 {% endif %}
 
-<section>
-    <h2 class="smallcap capitalize-first-letter"> {{ category_name }} </h2>
-    <ul class="post-list">
-        {% assign empty_category = true %}
-           {% for post in source limit: max_posts %}
-                <li>
-                    <span>{{ post.date | date: "%B %d, %Y" }}</span>
-                    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                </li>
-                {% assign empty_category =  false %}
-            {% endfor %}
+<h2 class="smallcap capitalize-first-letter"> {{ category_name }} </h2>
+<ul class="post-list">
+    {% assign empty_category = true %}
+       {% for post in source limit: max_posts %}
+            <li>
+                <span>{{ post.date | date: "%B %d, %Y" }}</span>
+                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </li>
+            {% assign empty_category =  false %}
+        {% endfor %}
 
-        {% if empty_category %}
-            <li>There is nothing posted (yet!).</li>
-        {% endif %}
-    </ul>
-</section>
+    {% if empty_category %}
+        <li>There is nothing posted (yet!).</li>
+    {% endif %}
+</ul>

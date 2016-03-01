@@ -78,7 +78,8 @@
  * Page content
  */
 .page-content {
-    max-width: 48rem;
+    max-width: 54rem; //was 48
+    width: 90%;
     padding: $spacing-unit ($spacing-unit * 0.75);
     margin: 0 auto;
     box-sizing: border-box;
