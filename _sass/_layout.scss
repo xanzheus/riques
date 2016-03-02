@@ -194,13 +194,14 @@
     margin-top: 30px;
     border-top: 1px solid $site-separator;
     text-align: center;
+    padding-top: 15px;
 }
 
 .categories {
-    margin-top: 15px;
     font-weight: 300;
     font-size: 18px;
-
+    margin-left: 0px;
+    
     .categories__item {
         a{ color: $grey-color-dark; }
     }
