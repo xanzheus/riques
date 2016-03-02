@@ -10,7 +10,7 @@ permalink: /:categories/:title
 
 author:
     fullname: Bruno Henriques
-    profile-image: "/images/profile_pic.jpg"
+    profile-image: "assets/images/profile_pic.jpg"
     email: brunoaphenriques@gmail.com
     linkedin: bphenriques
     github: bphenriques
