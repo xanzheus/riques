@@ -5,6 +5,7 @@
     border-bottom: 1px solid $site-separator;
     text-align: center;
     padding: 1rem 0;
+    max-width: 100%;
     overflow-y: visible;
     overflow-x: visible;
     background-color: $site-header-background;
@@ -22,8 +23,7 @@
     letter-spacing: -1px;
     color: $grey-color-dark;
 
-    &,
-    &:hover {
+    &, &:hover {
         text-decoration: none;
     }
 }
@@ -79,8 +79,8 @@
  * Page content
  */
 .page-content {
-    max-width: 51rem; //was 48
-    width: 95%;
+    max-width: 48rem;
+    width: 100%;
     padding: $spacing-unit ($spacing-unit * 0.75);
     margin: 0 auto;
     box-sizing: border-box;
@@ -137,13 +137,11 @@
 .post-content {
     margin-bottom: $spacing-unit;
 
-    h1, h2, h3,
-    h4, h5, h6 {
+    h1, h2, h3, h4, h5, h6 {
         margin-top: 2rem;
     }
 
-    h1,
-    h2 {
+    h1, h2 {
         font-size: 2rem;
     }
 
@@ -155,8 +153,7 @@
         font-size: 1.25rem;
     }
 
-    h5,
-    h6 {
+    h5, h6 {
         font-size: 1rem;
     }
 }
@@ -201,24 +198,11 @@
 }
 
 .categories {
-    list-style-type: none;
     margin-top: 15px;
     font-weight: 300;
     font-size: 18px;
 
     .categories__item {
-        display: inline-block;
-
         a{ color: $grey-color-dark; }
-
-        &:after{
-            content: "/";
-            margin-right: 6px;
-        }
-
-        &:last-child:after {
-            content: "";
-            margin-right: 0px;
-        }
     }
 }

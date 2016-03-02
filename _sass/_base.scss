@@ -225,6 +225,7 @@ a.tooltip:before {
   border-width: 6px 6px 0 6px;
   border-color: rgba(0,0,0,0.85) transparent transparent transparent;
 }
+
 a.tooltip:hover:after{ visibility: visible; opacity: 1; bottom: 20px; }
 a.tooltip:hover:before{ visibility: visible; opacity: 1; bottom: 14px; }
 
@@ -236,6 +237,24 @@ a.tooltip.bottom:before {
   top: 0px; // was 0;
 }
 a.tooltip.bottom:hover:before { top: 32px; } //was 20
+
+
+.inline-list {
+    list-style-type: none;
+    .inline-list-element {
+        display: inline-block;
+
+        &:after{
+            content: attr(separator);
+            margin-left: 3px;
+        }
+
+        &:last-child:after {
+            content: "";
+            margin-left: 0px;
+        }
+    }
+}
 
 /**
  * Clearfix
