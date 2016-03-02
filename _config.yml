@@ -5,12 +5,12 @@
 title: Bruno Henriques
 
 url: "http://bphenriques.github.io"
-baseurl: "" #prefix, e.g. /blog/
+baseurl: ""
 permalink: /:categories/:title
 
 author:
     fullname: Bruno Henriques
-    profile-image: "https://lh3.googleusercontent.com/4sR4lWUfxfndLPRPtTXjCLa5WLUu9SF_o-nvLc2zJxRo0eNzi5RMPbOXsBNzwKQNsUZJ=w6720-h4200-rw-no"
+    profile-image: "/images/profile_pic.jpg"
     email: brunoaphenriques@gmail.com
     linkedin: bphenriques
     github: bphenriques
