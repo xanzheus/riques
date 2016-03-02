@@ -2,19 +2,24 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<!-- android color -->
+<meta name="theme-color" content="#FF69B4">
+
+<!-- iOS tags -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+
 <title>
-    {% if post.title %} 
-        {{ post.title }} - 
-    {% elsif page.title %}
-        {{ page.title }} - 
-    {% endif %}
-	{{ site.title }}
+    {% if post.title %}    {{ post.title }} - 
+    {% elsif page.title %} {{ page.title }} - {% endif %}
+    {{ site.title }}
 </title>
 
 <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
 {% if page.tags %}
-	<meta name="keywords" content="{{ page.tags | join: ', ' }}">
+    <meta name="keywords" content="{{ page.tags | join: ', ' }}">
 {% endif %}
 
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
