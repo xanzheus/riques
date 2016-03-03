@@ -1,31 +1,11 @@
 <link rel="stylesheet" href="{{ "/assets/vendor/normalize-css/normalize.css" | prepend: site.baseurl }}">
-
-
 <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ "/css/about.css" | prepend: site.baseurl }}">
 
 {% if site.styles contains site.highlightstyle %}
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/vendor/highlight/styles/{{ site.highlightstyle }}.css">
 {% else %}
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/vendor/highlight/styles/solarized_dark.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/vendor/highlight/styles/zenburn.css">
 {% endif %}
 
 <link rel="stylesheet" href="{{ "/assets/vendor/font-awesome/css/font-awesome.css" | prepend: site.baseurl }}">
-
-
-<!-- other -->
-
-{% assign meta-folder="assets/meta" %}
-
-<link rel="icon" type="image/png" href="{{ meta-folder }}/favicon-16x16.png" sizes="16x16">
-<link rel="icon" type="image/png" href="{{ meta-folder }}/favicon-32x32.png" sizes="32x32">
-
-<!-- mobile -->
-<meta name="theme-color" content="#DCDCDC"> <!-- android color -->
-<link rel="apple-touch-icon" sizes="152x152" href="{{ meta-folder }}/apple-touch-icon-152x152.png">
-<meta name="apple-mobile-web-app-title" content="bphenriques">
-<meta name="application-name" content="bphenriques">
-
-<!-- windows -->
-<meta name="msapplication-TileColor" content="#2b5797">
-<meta name="msapplication-TileImage" content="{{ meta-folder }}/mstile-144x144.png">
-<meta name="theme-color" content="#ffffff">
