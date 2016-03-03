@@ -9,9 +9,11 @@ layout: compress
     {% include meta_tags/base.html %}
     {% include meta_tags/sharing.html %}
     {% include externals/favicons.html %}
-    {% feed_meta %}
-    {% include externals/styling.html %}
+    {% feed_meta %}    
+    {% include externals/tools/loadCSS.html %}
     {% include externals/tools/loadJS.html %}
+    
+    {% include externals/styling.html %}
 
 
     {% if site.debug %}
@@ -31,5 +33,6 @@ layout: compress
     <!-- delay js -->
     {% include externals/tools/highlight.html %}
     <!-- {% include externals/tools/google_analytics.html %}  -->
+    {% include externals/noscript.html %}
   </body>
 </html>

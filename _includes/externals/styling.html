@@ -1,10 +1,14 @@
+<!-- not critical -->
+<script>
+    {% assign highlightstyle="zenburn" %}
+    {% if site.styles contains site.highlightstyle %}
+        {% assign highlightstyle="{{ site.highlightstyle }}" %}
+    {% endif %}
+
+    loadCSS("{{ site.baseurl }}/assets/vendor/highlight/styles/{{ highlightstyle }}.css");
+    loadCSS("{{ site.baseurl }}/assets/vendor/font-awesome/css/font-awesome.min.css");
+</script>
+
+<!-- critical area -->
 <link rel="stylesheet" href="{{ "/assets/vendor/normalize-css/normalize.min.css" | prepend: site.baseurl }}">
 <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-
-{% assign highlightstyle="zenburn" %}
-{% if site.styles contains site.highlightstyle %}
-    {% assign highlightstyle="{{ site.highlightstyle }}" %}
-{% endif %}
-
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/vendor/highlight/styles/{{ highlightstyle }}.css">
-<link rel="stylesheet" href="{{ "/assets/vendor/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
