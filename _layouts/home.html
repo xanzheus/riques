@@ -1,15 +1,14 @@
 ---
-layout: page
+layout: default
 show-title: false
 sitemap:
   priority: 0.9
 ---
-<div class="about">
-    <p class="center">
-        <img class="circular" src="{{ site.author.profile-image | prepend: site.url }}"/> 
-        <span class="center">{{ site.data.curriculum.short-description }}</span>
-    </p>
+<p class="about center">
+    <img class="circular" src="{{ site.author.profile-image | prepend: site.url }}"/> 
+    {{ site.data.curriculum.short-description }}
+    <br><br>
+    You can see more information about me <a href="{{ '/about' | prepend: site.baseurl }}">here</a>.
+</p>
 
-    <p class="center">You can see more information about me <a href="{{ '/about' | prepend: site.baseurl }}">here</a>.</p>
-</div>
 {% include main_design/page/post_list.html %}

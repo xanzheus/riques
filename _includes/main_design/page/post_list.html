@@ -16,10 +16,7 @@
 <ul class="post-list">
     {% assign empty_category = true %}
        {% for post in source limit: max_posts %}
-            <li>
-                <span>{{ post.date | date: "%B %d, %Y" }}</span>
-                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </li>
+            <li>{{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
             {% assign empty_category =  false %}
         {% endfor %}
 
