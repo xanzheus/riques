@@ -71,21 +71,21 @@ projects:
 
 work:
     title: "Work"
-    course-delegate: 
-        title: Delegate of MSc course on Information Systems and Computer Engineering
-        location: Técnico, Lisboa
+    gsoc2016-mentor: 
+        title: Google Summer of Code Mentor
+        location: Anita Borg Institute, Online
         description: >
-            I was responsible for representing the students, acting as bridge between them and the professors, 
-            and for assuring that the current regulations are being applied in order to promote the quality of the 
-            teaching in Técnico Lisboa.
-        from: October 2014
-        to: November 2015
-    GSoC2016: 
-        title: Google Summer of Code Student 2015 iOS Developer
-        location: Online
+            Evaluate and guide students progress on projects promoted by Anita Borg Institute during GSoC.
+        from: March 2016
+        to: Present
+    
+    gsoc2016-student: 
+        title: Google Summer of Code Student iOS Developer
+        location: Anita Borg Institute, Online
         description: >
-            Responsible for developing the the Peace Corps vision of the malaria application on iOS devices. 
-            The project was a success and the first version of the app was ready to be released to the public.
+            Developed an iOS app for Peace Corps that allows volunteers to manage their pill intake. 
+            The app was ready to be released to the public. In the process, I moved portions of the code-base to several
+            different self-contained open-source modules.
         from: May 2015
         to: Semptember 2015
 
@@ -93,8 +93,17 @@ work:
         title: Mobile Applications Developer
         location: FenixEdu, Lisbon
         description: >
-            Part of the team developing the first official Instituto Superior Técnico application for iOS devices in Swift
-            using Fenix Edu REST API and OAuth2 service for client authorization.
+            Developed and released the first official <a href="https://itunes.apple.com/us/app/tecnico-lisboa/id959976468">Técnico Lisboa</a> application 
+            for iOS devices in Swift using Fenix Edu <a href"http://fenixedu.org/dev/api/">REST API</a> and OAuth2.
+        from: October 2014
+        to: November 2015
+    course-delegate: 
+        title: Delegate of MSc course on Information Systems and Computer Engineering
+        location: Técnico, Lisboa
+        description: >
+            I was responsible for representing the students, acting as bridge between them and the professors, 
+            and for assuring that the current regulations are being applied in order to promote the quality of the 
+            teaching in Técnico Lisboa.
         from: October 2014
         to: November 2015
     gaips-internship: 
@@ -107,15 +116,15 @@ work:
         from: July 2014
         to: August 2014
     inesc-dm-internship: 
-        title: Minor Development
+        title: Research
         location: INESC-ID, Lisbon
         description: >
-            Read, fix and write RPM packages scripts for the software developed.
+            Research and write RPM packages scripts for the developed computer vision related software.
         from: February 2013
         to: October 2013
     nape: 
-        title: Mentor
-        location: Student Support Unit (NAPE), IST
+        title: Incoming Students Mentor
+        location: Student Support Unit (NAPE), Técnico Lisboa
         description: >
             Responsible for new incoming students guidance and tutoring, in order to integrate them at the campus during their first days.
         from: September 2012
@@ -186,15 +195,14 @@ volunteer:
         title: <a href="http://www.re-food.org/blog/">Refood</a> volunteer
         location: Campo Pequeno, Lisbon
         description: >
-            Ease the redirection of un-served left-over food to people in need by 
-            gathering goods at the local restaurants and delivering them to the central base.
+            Ease the redirection of un-served left-over food to people in need by gathering goods from food establishments.
         from: March 2014
         to: May 2014
     natura-observa: 
         title: Natura observa volunteer
         location: Natural Park Sintra-Cascais
         description: >
-            Maintenance of pedestrian routes and local flora
+            Maintenance of pedestrian routes and local flora.
         from: July 2012-2013
         to: July 2012-2013
     children-take-care: 
@@ -212,7 +220,7 @@ volunteer:
 languages:
     title: "Languages"
     portuguese:
-        name: Portuguese (mother language)
+        name: Portuguese (native)
         written-level: Very Good
         oral-level: Very good
     english:
@@ -228,9 +236,9 @@ honors-awards:
     title: "Honor and Awards"
     academic-performance:        
         description: Técnico Lisboa Academic Performance
-        date: 2012, 2013
+        date: 2011, 2012, 2013
         for: ""
     natura-observa:
-        description: Performance Award
+        description: Natura Observa Performance Award
         date: 2012, 2013
-        for: Hard worker during project Javali
+        for: ""
