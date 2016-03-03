@@ -21,7 +21,7 @@
 			</a>
 		{% endfor %}
 
-		<a data-tool="Download CV" href="{{ site.author.cv-url }}" class="social-links__entry tooltip bottom" target="_blank">
+		<a data-tool="Download CV" href="{{ site.author.cv-url | prepend: site.url }}" class="social-links__entry tooltip bottom" target="_blank">
 			<i class="fa fa-file-pdf-o"></i>
 		</a>
 			

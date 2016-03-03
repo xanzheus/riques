@@ -11,7 +11,7 @@ permalink: /:categories/:title
 author:
     fullname: Bruno Henriques
     profile-image: "assets/images/profile_pic.jpg"
-    cv-url: "assets/misc/CV.pdf"
+    cv-url: "/assets/misc/CV.pdf"
     email: brunoaphenriques@gmail.com
     linkedin: bphenriques
     github: bphenriques
