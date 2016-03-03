@@ -9,7 +9,10 @@ layout: compress
     {% include meta_tags/base.html %}
     {% include meta_tags/sharing.html %}
     {% include externals/favicons.html %}
-    {% feed_meta %}{% include externals/styling.html %}
+    {% feed_meta %}
+    {% include externals/styling.html %}
+    {% include externals/tools/loadJS.html %}
+
 
     {% if site.debug %}
       {% include externals/debug/border-lines-debug.html %}
