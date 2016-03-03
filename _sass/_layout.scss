@@ -10,8 +10,7 @@ html, body {
     border-bottom: 1px solid $site-separator;
     text-align: center;
     padding: 1rem 0;
-    overflow-y: visible;
-    overflow-x: visible;
+    overflow: visible;
     background-color: $site-header-background;
 }
 

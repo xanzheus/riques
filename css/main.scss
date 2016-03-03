@@ -5,7 +5,6 @@ sitemap:
 ---
 @charset "utf-8";
 
-
 // Our variables
 $base-font-family:  "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $code-font-family: "Courier New", Consolas, monopace, FangSong, STFangsong;
@@ -28,7 +27,6 @@ $site-header-background: #f0f0f0;
 $site-footer-background: $site-header-background;
 $site-separator: darken($site-header-background, 30%);
 
-
 // Width of the content area
 $on-palm:          600px;
 $on-laptop:        800px;
@@ -42,5 +40,6 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
-        "layout"
+        "layout",
+        "about"
 ;

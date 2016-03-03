@@ -10,7 +10,7 @@ permalink: /:year/:month/:title
 
 author:
     fullname: Bruno Henriques
-    profile-image: "assets/images/profile_pic.jpg"
+    profile-image: "/assets/images/profile_pic.jpg"
     cv-url: "/assets/misc/CV.pdf"
     email: brunoaphenriques@gmail.com
     linkedin: bphenriques
@@ -26,12 +26,19 @@ author:
     #stack-overflow: 
     #reddit:
 
-disqus: :bphenriquesgithubio
+disqus: bphenriquesgithubio
 google_analytics: 'UA-74411247-1'
 
 ###
 ### Build settings
 ###
+
+debug: false
+
+compress_html:
+  clippings: all
+  blanklines: true
+  comments: ["<!-- ", " -->"]
 
 # Syntax highlighting
 highlightstyle: ''
@@ -43,6 +50,10 @@ exclude: ["README.md", "README.html"]
 # Build settings
 highlighter: null
 markdown: kramdown
+
+sass:
+  clippings: all
+  style: compressed
 
 sitemap:
     exclude:

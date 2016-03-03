@@ -5,26 +5,26 @@
 		{% for prop in site.author offset:3 %} <!-- skip some due to different url generation -->
 	    	{% assign social_network=prop[0] %}
 	    	{% assign user_id = prop[1] %}
-
+	    	
 	    	{% assign url-prefix=site.data.social_links.social-base-url[social_network] %}
 	    	{% assign url-sufix=site.data.social_links.social-end-url[social_network] %}
-
+	    	
 	    	{% assign fav_icon = social_network %}	    	
 	    	{% if site.data.social_links.custom-fav-icon[social_network] %}
 	    		{% assign fav_icon = site.data.social_links.custom-fav-icon[social_network] %}
 	    	{% endif %}
 
-	    	<a 	data-tool="{{ url-prefix | remove:'http://' | remove:'https://' | remove:'mailto:' | remove:'skype:' | remove:'www.' }}{{ user_id }}" 
-	    		href="{{ url-prefix }}{{ user_id }}{{ url-sufix }}" class="social-links__entry tooltip bottom" target="_blank">
-				
-				<i class="fa fa-{{ fav_icon }}"></i>
-			</a>
+	    	{% assign tool-tip-text = url-prefix | remove:'http://' | remove:'https://' | remove:'mailto:' | remove:'skype:' | remove:'www.' | append:user_id %}
+
+	    	{% assign url = url-prefix | append: user_id | append: url-sufix %}
+
+	    	<a data-tool="{{ tool-tip-text }}" href="{{ url }}" class="social-links__entry tooltip bottom" target="_blank">
+	    		<i class="fa fa-{{ fav_icon }}"></i>
+	    	</a>
 		{% endfor %}
 
 		<a data-tool="Download CV" href="{{ site.author.cv-url | prepend: site.url }}" class="social-links__entry tooltip bottom" target="_blank">
 			<i class="fa fa-file-pdf-o"></i>
 		</a>
-			
 	</ul>
-
 </header>
