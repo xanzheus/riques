@@ -1,7 +1,11 @@
 {% assign meta-folder="/assets/meta/" | prepend: site.url %}
 
 <!-- favicon -->
-<link rel="icon" href="{{ meta-folder }}favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/x-icon" />
+<link rel="icon" href="{{ meta-folder }}favicon16.ico" sizes="16x16" type="image/x-icon" />
+<link rel="icon" href="{{ meta-folder }}favicon24.ico" sizes="24x24" type="image/x-icon" />
+<link rel="icon" href="{{ meta-folder }}favicon32.ico" sizes="32x32" type="image/x-icon" />
+<link rel="icon" href="{{ meta-folder }}favicon48.ico" sizes="48x48" type="image/x-icon" />
+<link rel="icon" href="{{ meta-folder }}favicon64.ico" sizes="64x64" type="image/x-icon" />
 
 <!-- mobile -->
 <meta name="theme-color" content="#DCDCDC"> <!-- android color -->
@@ -12,4 +16,5 @@
 <!-- windows -->
 <meta name="msapplication-TileColor" content="#2b5797">
 <meta name="msapplication-TileImage" content="{{ meta-folder }}/mstile-144x144.png">
+<meta name="msapplication-config" content="assets/meta/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
