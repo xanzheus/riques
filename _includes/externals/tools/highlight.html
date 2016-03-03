@@ -1,2 +1,5 @@
-<script src="{{ "/assets/vendor/highlight/highlight.pack.js" | prepend: site.baseurl }}"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+<script>
+    loadJS("{{ '/assets/vendor/highlight/highlight.pack.js' }}", function() {
+        hljs.initHighlightingOnLoad();
+    });
+</script>
