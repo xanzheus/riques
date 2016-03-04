@@ -21,8 +21,8 @@
 
 	    	{% assign url = url-prefix | append: user_id | append: url-sufix %}
 
-	    	<a faid="{{ fav_icon }}" data-tool="{{ tooltip }}" href="{{ url }}" class="tooltip bottom social-links__entry" target="_blank">
-	    		<i bla="bla"></i> <!-- filled in the JS -->
+	    	<a data-tool="{{ tooltip }}" href="{{ url }}" class="tooltip bottom social-links__entry" target="_blank">
+	    		<i class="fa fa-{{ fav_icon }}"></i>
 	    	</a>
 		{% endfor %}
 
