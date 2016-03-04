@@ -1,5 +1,7 @@
-<script>
-    loadJS("{{ '/assets/vendor/highlight/highlight.pack.js' }}", function() {
-        hljs.initHighlightingOnLoad();
-    });
-</script>
+{% if page.containscode or post.containscode %}
+    <script>
+        loadJS("{{ '/assets/vendor/highlight/highlight.pack.js' }}", function() {
+            hljs.initHighlightingOnLoad();
+        });
+    </script>
+{% endif %}

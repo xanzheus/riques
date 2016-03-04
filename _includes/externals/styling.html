@@ -1,10 +1,16 @@
 <!-- not critical -->
-<script>
-    {% assign highlightstyle="zenburn" %}
-    {% if site.styles contains site.highlightstyle %}
-        {% assign highlightstyle="{{ site.highlightstyle }}" %}
-    {% endif %}
 
-    loadCSS("{{ site.baseurl }}/assets/vendor/highlight/styles/{{ highlightstyle }}.css");
+<script>
     loadCSS("{{ site.baseurl }}/assets/vendor/font-awesome/css/font-awesome.min.css");
 </script>
+
+{% if page.containscode or post.containscode %}
+    <script>
+        {% assign highlightstyle="zenburn" %}
+        {% if site.styles contains site.highlightstyle %}
+            {% assign highlightstyle="{{ site.highlightstyle }}" %}
+        {% endif %}
+
+        loadCSS("{{ site.baseurl }}/assets/vendor/highlight/styles/{{ highlightstyle }}.css");
+    </script>
+{% endif %}

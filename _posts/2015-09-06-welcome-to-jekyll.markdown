@@ -8,6 +8,8 @@ tags:
 - jekyll
 - example
 - Tutorial
+
+containscode: true
 ---
 
 {% highlight ruby %}

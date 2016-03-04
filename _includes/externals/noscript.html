@@ -1,4 +1,6 @@
+{% if page.containscode or post.containscode %}
 <noscript>
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/vendor/highlight/styles/{{ highlightstyle }}.css">
     <link rel="stylesheet" href="{{ "/assets/vendor/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
 </noscript>
+{% endif %}
