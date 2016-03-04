@@ -12,6 +12,7 @@ html, body {
     padding: 1rem 0;
     overflow: visible;
     background-color: $site-header-background;
+    height: 70px;
 }
 
 .about{
@@ -209,5 +210,8 @@ html, body {
     
     .categories__item {
         a{ color: $grey-color-dark; }
+        &:after{
+            margin-right: 6px;
+        }
     }
 }

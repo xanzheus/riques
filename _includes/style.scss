@@ -33,7 +33,7 @@ $on-laptop:        800px;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "normalize.min.scss";
+@import "vendor/normalize-css/normalize";
 @import "base";
 @import "layout";
 @import "about";

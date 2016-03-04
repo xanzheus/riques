@@ -1,13 +1,14 @@
 ---
 layout: post
-title:  "Trying jekyll"
-date:   2015-09-06 23:34:01
+title:  "Published my blog"
+date:   2016-03-04 09:13:00
 categories: [projects]
 author: "Bruno Henriques"
 tags:
 - jekyll
-- example
-- Tutorial
+- html
+- css
+- speed
 
 containscode: true
 ---

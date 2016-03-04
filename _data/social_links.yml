@@ -3,6 +3,7 @@
 ###                            #####
 
 social-base-url:
+    cvurl: "https://bphenriques.github.io/assets/misc/"
     email: "mailto:"
     google-plus: https://plus.google.com/u/0/
     linkedin: https://pt.linkedin.com/in/
@@ -15,5 +16,10 @@ social-base-url:
 social-end-url:
     skype: "?add"
 
+
+custom-tooltip:
+    cvurl: "Download CV"
+
 custom-fav-icon:
     email: envelope
+    cvurl: "file-pdf-o"
