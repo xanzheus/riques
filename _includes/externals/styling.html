@@ -1,7 +1,16 @@
 <!-- not critical -->
 
 <script>
-    loadCSS("{{ site.baseurl }}/assets/vendor/font-awesome/css/font-awesome.min.css");
+   var stylesheet = loadCSS("{{ site.baseurl }}/assets/vendor/font-awesome/css/font-awesome.min.css");
+   onloadCSS( stylesheet, function() {
+        var elements = document.getElementsByClassName("social-links__entry"),
+        len = elements !== null ? elements.length : 0,
+        i = 0;
+        for(i; i < len; i++) {
+            var i_fav_icon = elements[i].children[0];
+            i_fav_icon.className += "fa fa-" + elements[i].attributes.faid.value;
+        }
+    });
 
     {% if page.containscode or post.containscode %}
         {% assign highlightstyle="zenburn" %}
