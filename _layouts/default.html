@@ -1,7 +1,6 @@
 ---
 layout: compress
 ---
-<!-- http://jch.penibelst.de/ -->
 
 <!DOCTYPE html>
 <html>
@@ -12,9 +11,17 @@ layout: compress
     {% feed_meta %}    
     {% include externals/tools/loadCSS.html %}
     {% include externals/tools/loadJS.html %}
-    
-    {% include externals/styling.html %}
 
+  <!-- critical css -->
+  <style type="text/css">
+    {% capture critical_css %}
+      {% include style.scss %}
+    {% endcapture %}
+    {{ critical_css | scssify }}
+  </style>
+
+  <!-- not critical css -->
+    {% include externals/styling.html %}
 
     {% if site.debug %}
       {% include externals/debug/border-lines-debug.html %}
@@ -32,7 +39,7 @@ layout: compress
     
     <!-- delay js -->
     {% include externals/tools/highlight.html %}
-    <!-- {% include externals/tools/google_analytics.html %}  -->
+    {% include externals/tools/google_analytics.html %}
     {% include externals/noscript.html %}
   </body>
 </html>
