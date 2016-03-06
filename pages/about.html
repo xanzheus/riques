@@ -42,7 +42,7 @@ show-title: true
                     {% for language in category-data offset:1 %}
                         <li class="language-skill"> 
                             <ul class="inline-list">
-                                <li separator=":" class="inline-list-element language-name">{{ language[1].name }}</li>                                
+                                <li separator=":" class="inline-list-element bold">{{ language[1].name }}</li>                                
                                 <li separator="," class="inline-list-element">Oral - {{ language[1].oral-level }}</li>
                                 <li separator="," class="inline-list-element">Written - {{ language[1].written-level }}</li>
                             </ul>
@@ -53,7 +53,7 @@ show-title: true
                         <li class="work-information">
                             <p>
                                 <span class="work-from-to">{{ work[1].from }} - {{ work[1].to }}</span>:
-                                <span class="work-title">{{ work[1].title }}</span>, 
+                                <span class="bold">{{ work[1].title }}</span>, 
                                 <span class="work-location">{{ work[1].location }}</span>
                             </p>
                             <p class="small-margin-left">{{ work[1].description }}</p>                         
@@ -65,7 +65,7 @@ show-title: true
                         <li class="education-information">
                             <p>
                                 <span class="education-from-to">{{ education[1].end }}</span>:
-                                <span class="education-title">{{ education[1].type }} in {{ education[1].name }}</span> 
+                                <span class="bold">{{ education[1].type }} in {{ education[1].name }}</span> 
                                 ({{ education[1].grade }}), 
                                 <span class="education-location">
                                 {% if education[1].location-url != "" %}
@@ -77,7 +77,7 @@ show-title: true
                             </p>
                             <p>
                             {% if education[1].thesis != "" %}
-                                Theme: <span class="education-thesis">{{ education[1].thesis }} </span>
+                                Theme: <span class="bold">{{ education[1].thesis }} </span>
                             {% endif %}
                             </p>
                             {% if education[1].supervisors.size > 0 %}
@@ -99,7 +99,7 @@ show-title: true
                 {% elsif category-name == "honors-awards" %}
                     {% for award in category-data offset:1 %}
                         <li>
-                            {{ award[1].date }}: <span class="award-description">{{award[1].description }}</span>
+                            {{ award[1].date }}: <span class="bold">{{award[1].description }}</span>
                             {% if award[1].for != "" %} 
                                 for {{ award[1].for }}
                             {% endif %}

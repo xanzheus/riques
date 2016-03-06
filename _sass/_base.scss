@@ -243,14 +243,14 @@ a.tooltip.bottom:hover:before { top: 32px; } //was 20
     .inline-list-element {
         display: inline-block;
 
-        &:after{
+        &:before{
             content: attr(separator);
-            margin-left: 3px;
+            margin-right: 3px;
         }
 
-        &:last-child:after {
+        &:first-child:before {
             content: "";
-            margin-left: 0px;
+            margin-right: 0px;
         }
     }
 }
