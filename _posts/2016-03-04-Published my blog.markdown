@@ -16,11 +16,11 @@ Finally, I managed to publish my website! :)
 
 After an exhaustive learning curve and some quirks, I am quite happy with the result!
 
-To make this website, I reverse engineered some open source example projects in order to learn the underlying technologies and afterwards I started to do my own stuff. The most relevant thing I am proud of is that the [About][About] page is rendered automatically. I just need to change the [Curriculum][YML] and voilá! My objetive is to just edit it here and reuse it as starting point for LinkedIn and my curriculum.
+To make this website, I reverse engineered some open source example projects in order to learn the underlying technologies and afterwards I started to do my own stuff. The most relevant thing I am proud of is that the [About][About] page is rendered automatically. I just need to change the [YML][Curriculum] and voilá! My objetive is to just edit it here and reuse it as starting point for LinkedIn and my curriculum.
 
-However, there is room for improvements and I hope I get the time to look into it in the near future. At the moment, according to [PageSpeed Insights][page-speed], the website has 83% score on mobile devices and 88% on computers. (yes my profile picture is heavy, but resizing it makes it awful).
+However, there is room for improvements and I hope I get the time to look into it in the near future. At the moment, according to [PageSpeed Insights][page-speed], the website has 83% score on mobile devices and 88% on computers. (yes my profile picture is heavy, but resizing it makes it awful). I am looking forward to 99% (can't reach 100% due to caching issues using Github Pages :( ).
 
-If you haven't heard of [CriticalPath][Critical Path] on CSS and how to [Enhance][delay CSS/JS] loading so that pages render more sooner, you should really take a look! 
+If you haven't heard of [Critical Path][CriticalPath] on CSS and how to [delay CSS/JS][Enhance] loading so that pages render more sooner, you should really take a look! 
 
 Until next time.
 
