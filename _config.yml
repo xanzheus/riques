@@ -7,6 +7,7 @@ title: Bruno Henriques
 url: "http://bphenriques.github.io"
 baseurl: ""
 permalink: /:year/:month/:title
+future: true
 
 author:
     fullname: Bruno Henriques
