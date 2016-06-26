@@ -30,13 +30,13 @@ My goals when publishing these modules are:
 
 However it is not easy:
 
-* Assuring that the code is not hanging my wires;
-* Assure that what is accessibly publicly is well documented and easy to understand;
-* Assure (for everybody) that the modules are stable and work as intended by developing unit tests;
+* Assuring that the code is not hanging by wires;
+* Assure that what is accessible publicly is well documented and is easy to understand and use;
+* Assure that the modules are stable and work as intended by developing unit tests;
 * Be careful with version semantics;
-* If you publish, you should provide a readme;
-* If you publish, you should ideally provide a demo project;
-* If you publish, you have to maintain the project (you should at least...).
+* Writing a readme;
+* Ideally provide a demo project;
+* Maintain the project.
 
 As of this moment, I developed the following Cocoapods modules and Nuget Packages.
 
