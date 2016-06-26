@@ -56,7 +56,7 @@ The current state of these projects are not perfect I am aware. Why? Because I t
 * A demo project (some of these projects already have!);
 * Unit tests with a nice stamp on the repository readme.
 
-For every developer who stambles upon my code, I hope that it delivers what you expected and if you ever feel frustrated with it please let me know. For me, it has been a enriching experience!
+For every developer who stambles upon my code, I hope that it delivers what you expect and if you ever feel frustrated with it please let me know. For me, it has been a enriching experience!
 
 
 See ya!
