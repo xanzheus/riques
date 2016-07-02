@@ -27,6 +27,8 @@ Bruno
 
 Update: 89% on mobile and 88% on computers :D
 
+Update2 July 2nd 2016: 89% on mobile and 95% on computers whoohoo!
+
 [Enhance]: https://github.com/filamentgroup/enhance
 [About]: https://bphenriques.github.io/about/
 [page-speed]:   https://developers.google.com/speed/pagespeed/insights/?url=bphenriques.github.io
