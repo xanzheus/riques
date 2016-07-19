@@ -3,8 +3,12 @@ short-description: >
 
 description: >
     I am currently working on my MSc thesis on: "Rapport: Establishing Harmonious Relationships Between Robots and Humans" in INESC-ID with the supervision of professor Ana Paiva and professor Rui Prada.
+    <br><br>
     I take great pleasure in writing great code that is easy to read, yet scalable and that delivers what it promises. Since I am curious, I like to experiment different approaches when solving problems. Moreover, I enjoy working with other people as they offer refreshing insights to the issue.
+    <br><br>
     My current priority is to finish my MSc which is expected to finish November 2016. Afterwards, I want new challenges and be among the best engineers so that I can learn from them.
+    <br>
+    <br>
     Unless you are here to destroy the world, feel free to contact me. Hope you enjoy my random thoughts.
 
 
@@ -32,12 +36,12 @@ projects:
         ek-event-store-wrapper:
             name: EKEventStoreWrapper WIP (public)
             url: https://github.com/bphenriques/EKEventStoreWrapper
-    android:
+    Android:
         bluetooth-android-authorization:
             name: Bluetooth authorization App (client and server)
             url: https://github.com/bphenriques/SecureAccess-Android
 
-    academic:
+    Academic:
         pa-projects:
             name: Java debugger and APL in Lisp
             url: https://github.com/bphenriques/PAV-IST-2015
@@ -69,123 +73,157 @@ projects:
             name: Some algorithm problems solved (graph)
             url: https://github.com/bphenriques/projectoASA
 
-
-work:
+experience:
     title: "Work"
-    gsoc2016-mentor: 
-        title: Google Summer of Code Mentor
-        location: Anita Borg Institute, Online
-        description: >
-            Evaluate and guide students progress on projects promoted by Anita Borg Institute during GSoC.
+    gsoc2016-mentor:
+        institution: Anita Borg
+        title: Google Summer of Code Malaria-iOS Mentor
+        location: Online
+        description:
+            - Evaluated 6 students proposals regarding their understanding of the project, their engagement, and the proposed timeline;
+            - Provide guidance and code reviews for the students (<b>Swift</b>).
         from: March 2016
         to: Present
-    
+        duration: 5 Months
+
     gsoc2016-student: 
-        title: Google Summer of Code Student iOS Developer
-        location: Anita Borg Institute, Online
-        description: >
-            Developed an iOS app for Peace Corps that allows volunteers to manage their pill intake. 
-            The app was ready to be released to the public. In the process, I moved portions of the code-base to several
-            different self-contained open-source modules.
+        institution: Anita Borg
+        title: Google Summer of Code Student Malaria-iOS Developer
+        location: Online
+        description:
+            - Redesigned and improved the <b>iOS</b> <a href="https://github.com/systers/malaria-app-ios">App</a> in <b>Swift</b> with success as it met the required requirements and was nearly identical to the expected design;
+            - Published 4 <b>open-source CocoaPods</b> modules (<a href="https://cocoapods.org/?q=PickerSwift">PickerSwift</a>, <a href="https://cocoapods.org/?q=HorizontalProgressView">HorizontalProgressView</a>, <a href="https://cocoapods.org/?q=SimpleCircleProgressView">SimpleCircleProgressView</a>, <a href="https://cocoapods.org/?q=DoneToolbarSwift">DoneToolbarSwift</a>);            
+            - Designed the architecture with a clear separation between presentation, data and logic measured by its <b>testability</b>, <b>modularity</b> and <b>readability</b>.
         from: May 2015
         to: September 2015
+        duration: 5 Months
 
-    fenix-iOS: 
+    fenix-iOS:
+        institution: FenixEdu
         title: Mobile Applications Developer
-        location: FenixEdu, Lisbon
-        description: >
-            Developed and released the first official <a href="https://itunes.apple.com/us/app/tecnico-lisboa/id959976468">Técnico Lisboa</a> application 
-            for iOS devices in Swift using Fenix Edu <a href"http://fenixedu.org/dev/api/">REST API</a> and OAuth2.
+        location: Lisbon
+        description:
+            - Developed and released the first official Técnico Lisboa <a href="https://itunes.apple.com/us/app/tecnico-lisboa/id959976468">iOS App</a> in <b>Swift</b> used by Portuguese and international students;
+            - Developed several of the screens currently in production (e.g., payments, curriculum, and settings);
+            - Integrated the schedule of classes and exams with the native calendar;
+            - Streamlined the process of mapping the <b>REST</b> <a href="http://fenixedu.org/dev/api/">endpoints</a> onto objects by abstracting the data synchronisation and separating it from the presentation layers, measured by the reduced code to expand and maintain the app.
         from: October 2014
         to: November 2015
-    course-delegate: 
-        title: Delegate of MSc course on Information Systems and Computer Engineering
-        location: Técnico, Lisboa
-        description: >
-            I was responsible for representing the students, acting as bridge between them and the professors, 
-            and for assuring that the current regulations are being applied in order to promote the quality of the 
-            teaching in Técnico Lisboa.
-        from: October 2014
-        to: November 2015
+        duration: 13 Months
+
+    #inesc-dm-internship: 
+    #    title: Research
+    #    location: INESC-ID, Lisbon
+    #    description: >
+    #        Research and write RPM packages scripts for the developed computer vision related software.
+    #    from: February 2013
+    #    to: October 2013
+
+research:
+    title: "Research"
     gaips-internship: 
+        institution: GAIPS INESC-ID
         title: Intern Researcher
-        location: GAIPS INESC-ID, Taguspark
-        description: >
-            As part of a team, developed an application compatible with robot <a href="http://www.rethinkrobotics.com/products/baxter">Baxter</a> 
-            using <a href="http://www.ros.org/">ROS</a>, python, C++, and OpenCV. The application consisted in object manipulation and 
-            demonstration of several human emotions.
+        location: Oeiras
+        description: 
+            - Developed an emotive agent on Robot <a href="http://www.rethinkrobotics.com/products/baxter/">Baxter</a> to manipulate randomly placed objects using <b>ROS</b> and <b>OpenCV</b> (<a href="https://www.youtube.com/watch?v=4G643DbAGfg">video</a>);
+            - Consolidated the architecture as measured by its <b>maintainability</b> and <b>reusability</b> by streamlining the launcher, by abstracting the facial features generation, and by refactoring the algorithm to support unlimited patterns.
         from: July 2014
         to: August 2014
-    inesc-dm-internship: 
-        title: Research
-        location: INESC-ID, Lisbon
-        description: >
-            Research and write RPM packages scripts for the developed computer vision related software.
-        from: February 2013
-        to: October 2013
-    nape: 
+        duration: 2 Months
+
+
+extracurricular:
+    title: "University Extracurricular Work"
+    course-delegate:
+        institution: Instituto Superior Técnico
+        title: MEIC Course Delegate
+        location: Técnico, Lisboa
+        description:
+            - Promoted the quality of MEIC courses, ensuring that the teaching methods were effective and according to Técnico Lisboa's regulations;    
+            - Solved <b>conflicts</b> between students and professors by <b>negotiating</b> solutions that benefited both parties.
+        from: October 2014
+        to: November 2015
+        duration: 13 Months
+    nape:
+        institution: Instituto Superior Técnico
         title: Incoming Students Mentor
         location: Student Support Unit (NAPE), Técnico Lisboa
         description: >
             Responsible for new incoming students guidance and tutoring, in order to integrate them at the campus during their first days.
         from: September 2012
         to: September 2013
+        duration: 12 Months
 
 skills:
     title: "Skills"
-    programming-languages:
-        name: Programming languages
-        content:
-            - C++
+    section3:
+        title: "Between 2 and 3 years"
+        list:
             - Java
-            - C
-            - Python
+            - LISP
+            - Linux
+            - Git
+            - Latex
+    section2:
+        title: "Between 1 and 2 years"
+        list:
             - Swift
-            - Prolog
-            - Lisp (fair amount)
-    other-technologies:
-        name: Other technologies
-        content:
-            - LaTex
-            - SQL
+            - iOS
+            - Python
+            - C
+            - C#
+            - C++
+            - .NET
             - Unity
+            - HTML
+            - CSS
+            - CocoaPods
+    section1:
+        title: "Less than a 1 year"
+        list:
+            - Android
+            - SQL
+            - Jekyll
             - ROS
-            - iOS SDK (major)
-            - Core Data
-            - Android SDK (minor)
-            - Version Control
-            - Computer Graphics (minor)
+            - JS
+            - PHP
+            - Ant
+            - Prolog
+            - Asm
+            - OpenCV
+            - OpenGL
 
 education:
     title: "Education"
     MSc:
-        type: MSc degree
-        name: Information Systems and Computer Engineering
+        title: Master's degree in Information Systems and Computer Engineering 
         start: 2014
-        end: Present
-        location: Técnico Lisboa
+        end: Expected Nov 2016
+        location: Instituto Superior Técnico, Universidade de Lisboa
         location-url: http://tecnico.ulisboa.pt/en/
-        grade: 17
+        place: Lisbon, Portugal
+        grade: 17 out of 20
         thesis: "Rapport: Establishing Harmonious Relationships Between Robots and Humans"
         supervisors: ["Prof. Ana Paiva", "Prof. Rui Prada"]
     BSc:
-        type: BSc degree
-        name: Information Systems and Computer Engineering
+        title: Bachelor's degree in Information Systems and Computer Engineering
         start: 2011
         end: 2014
-        location: Técnico Lisboa
+        location: Instituto Superior Técnico, Universidade de Lisboa
         location-url: "http://tecnico.ulisboa.pt/en/"
-        grade: 17
+        place: Lisbon, Portugal
+        grade: 17 out of 20
         thesis: ""
         supervisors: []
 
     Summer-school:
-        type: "Summer School"
-        name: English Language Programme
+        title: English Language Programme
         start: August 2010
         end: August 2010
-        location: Abbotsholme, Staffordshire
-        location-url: ""
+        place: Staffordshire, England
+        location: Abbotsholme School
+        location-url: "http://www.abbotsholme.co.uk/"
         grade: B+
         thesis: ""
         supervisors: []
@@ -193,48 +231,58 @@ education:
 volunteer:
     title: "Volunteer Work"
     refood: 
-        title: <a href="http://www.re-food.org/blog/">Refood</a> volunteer
+        institution: Refood
+        title: Collect un-served food
         location: Campo Pequeno, Lisbon
         description: >
             Ease the redirection of un-served left-over food to people in need by gathering goods from food establishments.
         from: March 2014
         to: May 2014
+        duration: 3 months
     natura-observa: 
-        title: Natura observa volunteer
+        institution: Natura observa
+        title: Pedestrian Routes and Flora Maintenance
         location: Natural Park Sintra-Cascais
         description: >
-            Maintenance of pedestrian routes and local flora.
+            Maintain pedestrian routes and local flora.
         from: July 2012-2013
         to: July 2012-2013
+        duration: Total 2 months
+
     children-take-care: 
-        title: Child Care
-        location: Case Museu João Soares, Cortes, Leiria
+        institution: Casa Museu João Soares
+        title: Take Care of Children
+        location: Cortes, Leiria
         description: >
-            Responsible for entertaining the children and keeping them interested during the planned activities arranged for them while keeping them safe.
+            Entertain children and assure their safety during the planned activities organized for them.
         from: July 2009
         to: July 2009
-
-#research: 
-#    description: 
-    #papers:
+        duration: 1 month
 
 languages:
     title: "Languages"
     portuguese:
-        name: Portuguese (native)
-        written-level: Very Good
-        oral-level: Very good
+        name: Portuguese
+        level: Native
+        #written-level: Very Good
+        #oral-level: Very good
     english:
         name: English
-        written-level: Good
-        oral-level: Good
+        level: Full Working Level Proficiency
+        #written-level: Good
+        #oral-level: Good
     french:
         name: French
-        written-level: Basic (DELF A2)
-        oral-level: Basic (DELF A2)
+        level: Elementar (DELF A2)
+        #written-level: Basic (DELF A2)
+        #oral-level: Basic (DELF A2)
 
 honors-awards:
     title: "Honor and Awards"
+    unbabel-challenge:        
+        description: Unbabel NLP Challenge (8th place out of 13)
+        date: March 2016
+        for: ""
     academic-performance:        
         description: Técnico Lisboa Academic Performance
         date: 2011, 2012, 2013
