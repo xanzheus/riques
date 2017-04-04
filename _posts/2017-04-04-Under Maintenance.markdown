@@ -5,9 +5,8 @@ date:   2017-04-04 09:13:00
 categories: [projects]
 author: "Bruno Henriques"
 tags:
-- jekyll
-- html
-- css
+- Blog
+- Website
 ---
 
 So... here we are :)
