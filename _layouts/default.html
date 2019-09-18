@@ -1,47 +1,14 @@
 ---
 layout: compress
-sitemap:
-  priority: 0.9
 ---
-
 <!DOCTYPE html>
 <html>
   <head>
-    {% include meta_tags/base.html %}
-    {% include meta_tags/sharing.html %}
-    {% include externals/favicons.html %}
-    {% feed_meta %}    
-    {% include externals/tools/loadCSS.html %}
-    {% include externals/tools/loadJS.html %}
-
-  <!-- critical css -->
-    <style type="text/css">
-      {% capture critical_css %}
-        {% include style.scss %}
-      {% endcapture %}
-      {{ critical_css | scssify }}
-    </style>
-
-    <!-- not critical css -->
-    {% include externals/styling.html %}
-
-    {% if site.debug %}
-      {% include externals/debug/border-lines-debug.html %}
-      {% include externals/debug/helium-css-analyser.html %}
-    {% endif %}
+    {% include meta.html %}
+    {% include share.html %}
+    {% include style.html %}
   </head>
-  <body class="Site">
-    {% include main_design/header.html %}
-   
-    <div class="page-content">
-      {{ content }}
-    </div>
-    
-    {% include main_design/footer.html %}
-    
-    <!-- delay js -->
-    {% include externals/tools/highlight.html %}
-    {% include externals/tools/google_analytics.html %}
-    {% include externals/noscript.html %}
+  <body>
+    {{ content }}
   </body>
 </html>

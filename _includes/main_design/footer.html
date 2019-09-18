@@ -1,9 +1,0 @@
-<footer class="page-footer">
-    <ul class="categories inline-list">
-        {% for category in site.data.categories %}
-        <li separator="/" class="categories__item capitalize-first-letter inline-list-element">
-            <a href="{{ '/categories/' | append: category | prepend: site.baseurl }}">{{ category }}</a>
-        </li>
-        {% endfor %}
-    </ul>
-</footer>

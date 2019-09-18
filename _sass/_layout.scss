@@ -1,224 +1,71 @@
-.bold {
-    font-weight: bold;
+/* Typography */
+
+html {
+	font-family: 'Roboto', sans-serif;
 }
 
-.smallcap {
-    text-transform: lowercase;
-    font-variant: small-caps;
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
 }
 
-.capitalize-first-letter{
-    text-transform: capitalize;
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
 }
 
-
-
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
 }
 
-/**
- * Site header
- */
-.site-header {
-    border-bottom: 1px solid $site-separator;
-    text-align: center;
-    padding: 1rem 0;
-    overflow: visible;
-    background-color: $site-header-background;
-    height: 70px;
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
 }
 
-.about{
-    img {
-        margin-bottom: 20px;
-    }
+.icons-social i {
+	font-size: 3em;
 }
 
-.site-title {
-    font-size: 1.5rem;
-    font-weight: 300;
-    letter-spacing: -1px;
-    color: $grey-color-dark;
+/* Custom Styles */
 
-    &, &:hover {
-        text-decoration: none;
-    }
+main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: center;
+	padding: 0 30px;
+	text-align: center;
 }
 
-.center{
-    text-align: center;
+main > .intro {
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 3.75em;
+	font-weight: 600;
 }
 
-.circular{
-    margin: 0 auto;
-    display: block;
-
-    width: auto;
-    height: auto;
-    max-width: 150px;
-    max-height: 150px;
-    border-radius: 75px;
-    -webkit-border-radius: 75px;
-    -moz-border-radius: 75px;
+main > .tagline {
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 100;
 }
 
-.text-justified{
-    text-align: justify;
+.icons-social i {
+	padding: 10px;
 }
 
-.social-links {
-    margin: 0px;
-    margin-top: 6px;
-    text-align: center;
-    list-style-type: none;
-
-    .social-links__entry {
-        display: inline-block;
-        position: relative;
-        margin-left: 20px;
-        font-weight: bold;
-        font-size: 20px;
-        color: $grey-color-dark;
-
-        &:first-of-type {
-            margin-left: 0px;
-        }
-    }
+.devto {
+	margin-bottom: -0.20rem;
 }
 
-.Site {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-/**
- * Page content
- */
-.page-content {
-    max-width: 48rem;
-    width: 100%;
-    padding: $spacing-unit ($spacing-unit * 0.75);
-    margin: 0 auto;
-    box-sizing: border-box;
-    -webkit-flex: 1; /* Safari 6.1+ */
-    -ms-flex: 1; /* IE 10 */ 
-    flex: 1;
-}
-
-
-/**
- * Pages
- */
-
-
-
-.post-list > li {
-    margin-bottom: $spacing-unit / 4;
-
-    @include media-query($on-palm) {
-        span {
-            display: block;
-            font-size: $small-font-size;
-        }
-    }
-}
-
-
-
-/**
- * Posts
- */
-.post-header {
-    margin-bottom: $spacing-unit;
-
-    .post-title {
-        font-size: 2rem;
-        letter-spacing: -1px;
-        line-height: 1;
-    }
-
-    .post-meta {
-        font-size: $small-font-size;
-        color: $grey-color;
-    }
-}
-
-.post-content {
-    margin-bottom: $spacing-unit;
-
-    h1, h2, h3, h4, h5, h6 {
-        margin-top: 2rem;
-    }
-
-    h1, h2 {
-        font-size: 2rem;
-    }
-
-    h3 {
-        font-size: 1.5rem;
-    }
-
-    h4 {
-        font-size: 1.25rem;
-    }
-
-    h5, h6 {
-        font-size: 1rem;
-    }
-}
-
-/**
-  * TAGS
-  */
-
-.tag-cloud {
-    list-style: none;
-    padding: 0;
-    text-align: justify; 
-    font-size: 16px;
-    li {
-        display: inline-block;
-        margin: 0 12px 12px 0; 
-    }
-}
-
-.post-tags {
-  text-align: right;
-}
-
-#archives {
-    padding: 5px;
-  
-    .archive-group {
-        margin: 5px;
-        border-top: 1px solid #ddd;
-    }
-}
-
-/**
- * Explore
- */
-
-.page-footer{
-    background-color: $site-footer-background;
-    margin-top: 30px;
-    border-top: 1px solid $site-separator;
-    text-align: center;
-    margin-bottom: 0px;
-}
-
-.categories {
-    font-weight: 300;
-    font-size: 18px;
-    margin-left: 0px;
-    
-    .categories__item {
-        a{ color: $grey-color-dark; }
-        &:after{
-            margin-right: 6px;
-        }
-    }
+.devto svg {
+	margin-bottom: -0.20rem;
+	margin-left: 0.675rem;;
+	width: 2.65rem;
+	height: 2.65rem;
 }
