@@ -3,7 +3,12 @@
 @charset "UTF-8";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "external/normalize";
+@import "external/normalize/normalize";
+
+//https://ianlunn.github.io/Hover/
+@import "external/hover/hover";
+
+
 @import "vars";
 @import "layout";
 @import "theme";

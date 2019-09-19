@@ -1,19 +1,5 @@
-{% comment %}
-Using external CSS resource. The CSS is too small to justify managing critical CSS (say layout) from non-critical CSS (say colors and others)
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
 
-<style type="text/css">
-    {% capture critical_scss %}
-        {% include critical_scss.scss %}
-    {% endcapture %}
-    {{ critical_scss | scssify }}
-</style>
-
-Then use https://github.com/filamentgroup/loadCSS to load the remanining CSS that is not critical.
-
-URL for reference: https://www.keycdn.com/blog/css-performance#targetText=CSS%20is%20typically%20stored%20in,integrated%20directly%20into%20HTML%20documents.&targetText=However%2C%20if%20used%20improperly%2C%20CSS,website's%20performance%20from%20the%20outset.
-{% endcomment %}
-
-<link rel="preload" type="text/css" href="{{ '/assets/css/main.css' | relative_url }}" as="style">
 <!-- External resources -->
 <link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
-<link href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" rel="stylesheet">
+<link href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet">
