@@ -28,14 +28,9 @@ html {
 	}
 }
 
-/* Background */
-
-body {
-	background: $secondary-background-color;
-}
+/* Skewed Background */
   
 .skewed-background{
-	background: $main-background-color;
 	padding: 10vh 0;
 	margin-top: -10vh;
 	transform: skew(0deg, -5deg);

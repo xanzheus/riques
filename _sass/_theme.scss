@@ -1,7 +1,14 @@
 /* Theme */
 
+body {
+	background: $secondary-background-color;
+}
+
+.skewed-background {
+	background: $main-background-color;
+}
+
 main {
-	//background: $main-background-color;
 	color: $main-text-color;
 }
 
