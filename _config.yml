@@ -1,71 +1,23 @@
 ###
-### Generic settings
+### Page Settings
 ###
 
-title: Bruno Henriques
-
+title: Bruno Henriques | Backend Dev
 url: "http://bphenriques.github.io"
-baseurl: ""
-permalink: /:year/:month/:title
-future: true
 
-author:
-    fullname: Bruno Henriques
-    profile-image: "/assets/images/profile_pic.jpg"
-    email: brunoaphenriques@gmail.com
-    linkedin: bphenriques
-    github: bphenriques
-    instagram: brunophenriques
-    #skype: bruno.h31
-    cvurl: "CV.pdf"
-    #google-plus
-    #twitter:
-    #twitch: 
-    #tumblr: 
-    #steam: 
-    #spotify:
-    #stack-overflow: 
-    #reddit:
-
-disqus: bphenriquesgithubio
-google_analytics: 'UA-74411247-1'
 
 ###
 ### Build settings
 ###
 
-debug: false
-
 compress_html:
   clippings: all
-  #blanklines: true
-  comments: ["<!-- ", " -->"]
-
-# Syntax highlighting
-highlightstyle: ''
-styles: [agate, androidstudio, arta, asceti, atelier-cave.dark, atelier-cave.light, atelier-dune.dark, atelier-dune.light, atelier-estuary.dark, atelier-estuary.light, atelier-forest.dark, atelier-forest.light, atelier-heath.dark, atelier-heath.light, atelier-lakeside.dark, atelier-lakeside.light, atelier-plateau.dark, atelier-plateau.light, atelier-savanna.dark, atelier-savanna.light, atelier-seaside.dark, atelier-seaside.light, atelier-sulphurpool.dark, atelier-sulphurpool.light, brown_paper, codepen-embed, color-brewer, dark, darkula, default, docco, far, foundation, github, github-gist, googlecode, grayscale, hopscotch, hybrid, idea, ir_black, kimbie.dark, kimbie.light, magula, mono-blue, monokai, monokai_sublime, obsidian, paraiso.dark, paraiso.light, pojoaque, railscast, rainbow, school_book, solarized_dark, solarized_light, styles_list.txt, sunburst, tomorrow, tomorrow-night-blue, tomorrow-night-bright, tomorrow-night, tomorrow-night-eightie, v, xcode, zenburn]
+  comments: all
+  blanklines: false
 
 # Handling Reading
-exclude: ["README.md", "README.html"]
-
-# Build settings
-highlighter: null
-markdown: kramdown
+exclude: ["README.md"]
 
 sass:
   clippings: all
   style: compressed
-
-sitemap:
-    exclude:
-        - "/atom.xml"
-        - "/feed.xml"
-        - "/feed/index.xml"
-        - "README.md"
-        - "README.html"
-
-gems: 
-  - jekyll-mentions
-  - jemoji
-  - jekyll-feed
-  - jekyll-sitemap

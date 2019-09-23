@@ -1,0 +1,21 @@
+/* Theme */
+
+body {
+	background: $secondary-background-color;
+}
+
+.skewed-background {
+	background: $main-background-color;
+}
+
+main {
+	color: $main-text-color;
+}
+
+.icons-social a {
+	color: $social-icons-filling-color;
+}
+
+.icons-social a svg path{
+	fill: $social-icons-contour-color;
+}
