@@ -10,16 +10,6 @@ html {
 	}
 }
 
-@media (max-width: 576px) {
-	.new-line-if-narrow {
-		display: block;
-	}
-
-	.hidden-if-narrow {
-		display:  none;
-	}
-}
-
 @media (min-width: 576px) {
 	html {
 		font-size: 14px;
