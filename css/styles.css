@@ -4,12 +4,6 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 
-@media (min-width: 375px) {
-	html {
-		font-size: 12px;
-	}
-}
-
 @media (min-width: 576px) {
 	html {
 		font-size: 14px;
@@ -34,26 +28,18 @@ html {
 	}
 }
 
-/* Skewed Background */
-  
-.skewed-background{
-	padding: 10vh 0;
-	margin-top: -10vh;
-	transform: skew(0deg, -5deg);
-	
-	main {
-		transform: skew(0deg, 5deg);
-	}
+.icons-social i {
+	font-size: 3em;
 }
 
-/* Content layout itself */
+/* Custom Styles */
 
 main {
 	display: flex;
 	flex-direction: column;
-	height: 75vh;
-	padding: 0px 15px;
+	min-height: 100vh;
 	justify-content: center;
+	padding: 0 30px;
 	text-align: center;
 }
 
@@ -70,6 +56,11 @@ main > .tagline {
 }
 
 .icons-social i {
-	font-size: 3em;
 	padding: 10px;
 }
+
+.icons-social a img {
+	width: auto;
+	height: 2.75em;
+}
+

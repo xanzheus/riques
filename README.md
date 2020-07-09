@@ -1,13 +1,7 @@
-My landing page!
+My landing page - [bphenriques.github.io](bphenriques.github.io).
 
-# Build
+Added some personal twists to [flexdinesh/dev-landing-page](https://github.com/flexdinesh/dev-landing-page).
 
-```
-$ jekyll serve
-```
+# License
 
-# WIP
-
-* https://github.com/jekyll/jekyll-feed
-* https://github.com/jekyll/jekyll-sitemap
-* https://github.com/jekyll/jekyll-seo-tag
+This is a fork from @flexdinesh's [flexdinesh/dev-landing-page](https://github.com/flexdinesh/dev-landing-page).
