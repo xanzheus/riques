@@ -80,3 +80,8 @@ main > .tagline {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+
+.invert-text {
+  unicode-bidi: bidi-override;
+  direction: rtl
+}
