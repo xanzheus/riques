@@ -1,29 +1,30 @@
 /* Theme */
 
+:root {
+  --main-color: #38474f;
+  --accent-color: #ffe57f;
+  --text-color: #FAFAFA;
+}
+
 main {
-	border-top: 4px solid #ffe57f;
-	background: #38474f;
-	border-bottom: 4px solid #ffe57f;
-	color: #FAFAFA;
+	border-top: 4px solid var(--accent-color);
+	background: var(--main-color);
+	border-bottom: 4px solid var(--accent-color);
+	color: var(--text-color);
 }
 
-.icons-social a {
-	color: #FAFAFA;
+.icons-social a i {
+	color: var(--text-color);
 }
 
-.icons-social a:hover {
-	color: #ffe57f;
+.icons-social a i:hover {
+	color: var(--accent-color);
 }
 
 .icons-social a svg path{
-	fill: #FAFAFA;
+	fill: var(--text-color);
 }
 
-.icons-social a img {
-	filter: brightness(0) invert(1);
-}
-
-.icons-social a img:hover {
-	/* Retrieved from: https://codepen.io/sosuke/pen/Pjoqqp */
-	filter: invert(100%) sepia(77%) saturate(1917%) hue-rotate(310deg) brightness(114%) contrast(102%);
+.tooltiptext {
+	color: var(--text-color);
 }

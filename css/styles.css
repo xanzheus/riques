@@ -57,10 +57,26 @@ main > .tagline {
 
 .icons-social i {
 	padding: 10px;
+	padding-right: 15px;
 }
 
-.icons-social a img {
-	width: auto;
-	height: 2.75em;
+.tooltip {
+  position: relative;
+  display: inline-block;
 }
 
+.tooltip .tooltiptext {
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  width: 300px;
+  margin-left: -150px;
+  padding: 5px 0;
+  z-index: 1;
+  text-align: center;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
